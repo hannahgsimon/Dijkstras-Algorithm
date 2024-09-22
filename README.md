@@ -2,7 +2,7 @@ Graph traversal program with menu
  1- Author Info  
  2- Load Graph  
  3- Traverse Graph  
- 0- Exit  
+ 0- Exit Program  
 Where:  
 1 prints the program author info.  
 2 asks the user to enter a file name and loads the graph specified in the file using an adjacency matrix.  
