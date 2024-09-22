@@ -6,7 +6,7 @@ Graph traversal program with menu
 Where:  
 1 prints the program author info  
 2 asks the user to enter a file name and loads the graph specified in the file  
-3 asks for a starting node and then allows the user to travel around the graph  
+3 asks for a starting node and then allows the user to travel around the graph. Informs the user of all neighbors and the cost of traveling to each neighbor, then lets the user pick a neighbor to travel to. As the user traverses the nodes, a total of the costs incurred by the chosen path is kept.  
 0 exits the program
 
 When traversing the graph, choose -1 to exit the traversal.  
