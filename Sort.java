@@ -1,18 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package graphs;
-
+package project_dijkstrasalgorithm;
 import java.util.ArrayList;
 import java.util.Collections;
 
 /**
  *
- * @author hgsim
+ * @author hannahgsimon
  */
-public class Sort<T extends Neighbor> {
-    
+
+public class Sort<T extends Neighbor>
+{
     public void selectionSortAscendingCost(ArrayList<T> neighbors)
     {
         for (int j = neighbors.size() - 1; j != 0; j--)
@@ -28,5 +24,4 @@ public class Sort<T extends Neighbor> {
             Collections.swap(neighbors, tmp, j);
         }
     }
-    
 }
