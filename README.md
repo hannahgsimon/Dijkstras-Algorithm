@@ -1,7 +1,7 @@
-Graph traversal program with menu
- 1- Author Info
- 2- Load Graph
- 3- Traverse Graph
+Graph traversal program with menu  
+ 1- Author Info  
+ 2- Load Graph  
+ 3- Traverse Graph  
  0- Exit  
 Where:  
 1 prints the program author info  
