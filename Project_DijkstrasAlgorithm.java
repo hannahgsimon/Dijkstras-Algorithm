@@ -1,18 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package graphs;
+package project_dijkstrasalgorithm;
 import java.util.*;
 import java.io.*;
 
 /**
  *
- * @author hgsim
+ * @author hannahgsimon
  */
-public class Graphs
-{
 
+public class Project_DijkstrasAlgorithm
+{
     public static void main(String[] args) throws FileNotFoundException
     {
         Scanner input = new Scanner(System.in);
@@ -65,9 +61,7 @@ public class Graphs
                         String filename = input.next();
                         System.out.println(filename + " has successfully been added as the file.");
                         input.skip(".*");
-                        File file = new File(System.getProperty("user.dir") + "\\src\\" + filename + ".txt");     
-                        //File file = new File("C:\\Users\\hgsim\\Dropbox\\Math & Coding\\Spring 2024\\CIS265 Data Structures & Algorithms\\NetBeansProjects\\Graphs\\src\\graphs\\data\\file.txt");
-                        //File file = new File("C:\\Users\\hgsim\\Dropbox\\Math & Coding\\Spring 2024\\CIS265 Data Structures & Algorithms\\NetBeansProjects\\Graphs\\src\\graphs\\data\\file2.txt");
+                        File file = new File(System.getProperty("user.dir") + "\\src\\" + filename + ".txt");
                         Scanner fIn = new Scanner(file);
                         
                         size = fIn.nextInt();
